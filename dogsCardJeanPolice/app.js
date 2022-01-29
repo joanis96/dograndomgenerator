@@ -18,19 +18,6 @@ function dogsRandGen() {
     dogAge.innerHTML = Math.floor(Math.random() * 19) + 1 + " years";
     registry.innerHTML = Math.floor(Math.random() * 500) + 40;
 }
-dogId.onclick = function() {
-    alert("HI there is my id");
-}
-
-dogAge.onclick = function() {
-    alert("Hiii here is my age !!");
-    dogAge.innerHTML = Math.floor(Math.random() * 19);
-    Math.floor(Math.random() * 19);
-}
-
-registry.onclick = function() {
-    alert("Hiiiii, here is my registry number man !!");
-}
 
 
 
